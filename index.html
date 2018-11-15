@@ -1,14 +1,276 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Steve</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" rel="stylesheet" href="styles.css" />
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <title>Stevekibe</title>
+  <meta name="description" content="Web designer and front-end developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
 <body>
-    
+
+  <body>
+<!-- navbar header -->
+<div class="nav-header">
+  <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PROJECTS</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar header -->
+
+<!-- sidebar slider -->
+<div class="nav-screen">
+  <i class="fa fa-times fa-3x"></i>
+  <div class="nav-container">
+    <div class="nav-links">
+      <ul id='myMenu'>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PROJECTS</a></li>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar slider -->
+
+
+
+<!-- begin fullpage -->
+
+<div id="fullpage">
+
+  <!-- begin section -->
+
+  <div class="section aboutme" data-anchor="aboutme">
+    <div class="opaque-bg animated fadeInDown">
+      <img src="images/IMG_1235.JPG" alt="avatar" style="width:100px; height:100px;" >
+      <h1 style="color:white">STEPHEN<span style="color:rgb(36, 55, 228)">/</span>KIBE</h1>
+      <p><span id="holder"></span><span class="blinking-cursor" style="">|</span></p>
+    </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+  </div>
+  <!-- end section -->
+
+  <!-- begin section -->
+
+  <div class="section" data-anchor="skills">
+    <div class="content">
+      <br><br>
+      <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME/SKILLS</h1>
+      <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, i am Stephen Kibe i am fullstack web developer good in doing the backend part of an application and also good in frontend.</p>
+      <p>I like interacting with new people and also making new friends. I like acting as my other activity while i am not coding.</p>
+
+      <div class="container-fluid" style="float:center; padding:0px; margin-top:200px;" data-wow-delay="0.2s">
+      <div class="row">
+
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel">
+            <div class="panel-heading text-center">Web Application Languages</div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/html_Logo.png" height="95" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="images/css_logo.png" height="95" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/js_logo.png" height="100" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="images/jquery.png" height="100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel">
+            <div class="panel-heading text-center">Databases</div>
+            <div class="panel-body">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <img src="images/mysql.png" height="100" alt="">
+                </div>
+                <div class="col-md-6">
+
+                  <img src="images/postgresql.png" height="100" alt="" width="100">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/firebase.svg" height="100" alt="">
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel">
+            <div class="panel-heading text-center">Frameworks & Other Tools</div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/django.png" height="100" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="images/angular_logo.png" height="100" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/download.jpeg" height="100" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="" height="100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+  <!-- begin section -->
+
+  <div class="section" data-anchor="projects">
+    <div class="content-slide">
+        <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">AWWARDS</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">This is a website for rating projects</p>
+            <img class="wow fadeInUp" data-wow-delay="0.2s" src="images/awward.png">
+            <br>
+            <p><button class="btn btn-lg"><a href="https://github.com/stevekibe/awwards">Source Code</a></button>
+            <button class="btn btn-lg"><a href="https://spicyawwards.herokuapp.com">Deployed Site</a></button></p>
+       </div>
+        <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">HOODWATCH</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">This is a website for people on the same hood</p>
+            <img class="wow fadeInUp" data-wow-delay="0.2s" src="images/hodwatch.png">
+            <br>
+            <p><button class="btn btn-lg"><a href="https://github.com/hoodwatch/">Source Code</a></button>
+            <button class="btn btn-lg"><a href="https://spicyhoody.herokuapp.com">Deployed site</a></button></p>
+        </div>
+        <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">ANITA'S KITCHEN</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">This is a basic html website</p>
+            <img class="wow fadeInUp" data-wow-delay="0.2s" src="images/anitas.png">
+            <br>
+            <p><button class="btn btn-lg"><a href="https://github.com/stevekibe/Anita-s-kitchen">ANITA'S KITCHEN(Github)</a></button>
+            <button class="btn btn-lg"><a href="https://stevekibe.github.io/Anita-s-k…">ANITA'S KITCHEN(deployed site)</a></button></p>
+        </div>
+        <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">AWWARDS</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">This is a website for rating projects</p>
+            <img class="wow fadeInUp" data-wow-delay="0.2s" src="images/awward.png">
+            <br>
+            <p><button class="btn btn-lg"><a href="https://github.com/stevekibe/awwards">AWWARDS(Github)</a></button>
+            <button class="btn btn-lg"><a href="https://spicyawwards.herokuapp.com">Awwards(deployed site)</a></button></p>
+        </div>
+
+    </div>
+  </div>
+  <!-- end section -->
+
+  <!-- begin section -->
+
+  <div class="section" data-anchor="contact">
+    <div class="content wow fadeInDown" data-wow-delay="0.2s">
+      <h1>CONTACT ME</h1>
+        <p>If you're interested in working with me , I'd love to hear from you!</p>
+        <br>
+      <div class="contact-form">
+
+        <div id="form-messages"></div>
+        <form id="ajax-contact" method="post" action="https://formspree.io/stevekibe2345@gmail.com">
+          <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s" >
+            <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
+
+          <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s" >
+            <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
+
+          <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+            <textarea data-minlength="10" class="form-control" id ="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
+
+          <div class="hidden">
+            <input type="text" class="form-control" id="human" name="human" placeholder="">
+          </div>
+          <div class="wow fadeInUp" data-wow-delay="1s">
+            <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+          </div>
+        </form>
+      <br>
+      </div>
+  </div>
+ </div>
+ <!-- end section -->
+
+  <!-- begin section -->
+
+  <div class="section fp-auto-height">
+    <div class="footer">
+      <p>CONNECT WITH ME</p>
+      <div class="social-links">
+        <span><a href="https://" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+        <span><a href="https://" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+</div>
+<!-- end fullpage -->
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
 </body>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>
